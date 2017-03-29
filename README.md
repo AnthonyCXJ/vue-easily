@@ -1,6 +1,6 @@
 # vue-easily
-* 该项目仅仅是为了演示vue，主旨简单易懂的学习使用vue。
-* 涉及到webpack,vue-router,vue-resource,vuex
+* 该项目仅仅是为了演示vue，主旨简单易懂的学习使用vue
+* 涉及到webpack,vue-router,vue-resource,vuex等
 
 ## 使用
 * 生产环境可将 nginx 等配置到web目录并重写路由——非资源映射到index.html
