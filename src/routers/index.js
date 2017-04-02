@@ -1,8 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 
-const pageApp = r => require.ensure([], () => r(require('../pages/app.vue')), 'page-app');
-const pageHome = r => require.ensure([], () => r(require('../pages/home.vue')), 'page-home');
+import pageApp from "../pages/app.vue";
+import pageHome from "../pages/home.vue";
 const pageAlbum = r => require.ensure([], () => r(require('../pages/album.vue')), 'page-album');
 const pageFeedback = r => require.ensure([], () => r(require('../pages/feedback.vue')), 'page-feedback');
 const pageBlogList = r => require.ensure([], () => r(require('../pages/blog/list.vue')), 'page-blog-list');
