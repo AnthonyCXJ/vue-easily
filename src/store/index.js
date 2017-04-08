@@ -1,7 +1,7 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-import config from '../config'
-import blog from './modules/blog'
+import Vue from "vue";
+import Vuex from "vuex";
+import config from "../config";
+import blog from "./modules/blog";
 
 Vue.use(Vuex);
 
